@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 98, 253, 1) 100%
+  );
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin: 5px 0 15px 0;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element {
+  background-color: whitesmoke;
+  margin-top: 4rem;
+  width: 360px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+}
+.element1,
+.element2,
+.element3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.element2,
+.element3 {
+  margin-top: 1.5rem;
+}
+section aside img {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 1.5rem;
+  box-shadow: 2px 2px 10px black;
+}
+section aside h2 {
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 5px 0;
+}
+section aside .e-discription strong {
+  color: #6f1e51;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+section aside .e-discription .line {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+section aside .e-button {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  bottom: 4.2rem;
+  left: 8.8rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  border-right: 3px solid green;
+  border-left: 3px solid red;
+}
+
+section aside .e-button p {
+  margin: 0 1.5rem;
+}
+
+.p-total {
+  display: flex;
+  position: absolute;
+  left: 8.8rem;
+  bottom: 0.3rem;
+  font-size: 14px;
+}
+
+.order {
+  margin-top: 3rem;
+}
+
+.order .c-subtotal,
+.order .c-tax,
+.order .c-shipping,
+.order .c-totalize {
+  border-bottom: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+section,
+aside,
+.c-totalize,
+.c-shipping,
+.c-subtotal,
+.c-tax {
+  padding-top: 0.3rem;
+}
+
+.countprice::before,
+.subtotal::before,
+.tax::before,
+.shipping::before,
+.total::before,
+strong::before {
+  content: " $";
+}
+
+.remove {
+  display: flex;
+  position: absolute;
+  left: 8.8rem;
+  top: 5.8rem;
+  border: none;
+  cursor: pointer;
+  transition: color 0.5s;
+  font-size: larger;
+}
+
+.remove:hover {
+  color: red;
+}
+
+.remove:active {
+  opacity: 0.5;
+  transform: scale(0.95);
+}
+
+h2 {
+  color: black;
+  font-weight: 900;
+  font-size: larger;
+}
+.countprice {
+  text-decoration: underline;
+  text-decoration-color: brown;
+  color: #1b1464;
+  font-weight: 500;
+  text-indent: 3px;
+}
+
+.fa-plus {
+  opacity: 0.8;
+  font-size: 1.4rem;
+  padding: 0.1rem;
+  border-radius: 7px;
+  transition: background-color 0.5s;
+}
+
+.fa-plus:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.fa-plus:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.fa-minus {
+  opacity: 0.8;
+  font-size: 1.4rem;
+  padding: 0.1rem;
+  border-radius: 7px;
+  transition: background-color 0.5s;
+}
+
+.fa-minus:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.fa-minus:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.total {
+  background-color: green;
+  padding: 0.2rem 0.2rem 0 0.2rem;
+}
