@@ -35,7 +35,7 @@ section {
   width: 360px;
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 1px 1px 50px 10px red;
 }
 .element1,
 .element2,
