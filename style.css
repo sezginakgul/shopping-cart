@@ -194,6 +194,6 @@ h2 {
 }
 
 .total {
-  background-color: green;
-  padding: 0.2rem 0.2rem 0 0.2rem;
+  color: green;
+  font-weight: 900;
 }
