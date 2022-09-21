@@ -207,7 +207,7 @@ strong::before {
   font-weight: 900;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   body {
     height: 100vh;
     min-width: 350px;
@@ -221,7 +221,7 @@ strong::before {
 
   .element {
     width: 300px;
-    margin-top: 0.3rem;
+    margin-top: 2rem;
   }
 
   .element1,
