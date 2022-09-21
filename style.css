@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
 body {
   background: linear-gradient(
     0deg,
@@ -38,6 +39,7 @@ section {
   border-radius: 10px;
   box-shadow: 2px 2px 20px black;
 }
+
 .element1,
 .element2,
 .element3 {
@@ -45,10 +47,12 @@ section {
   flex-direction: row;
   position: relative;
 }
+
 .element2,
 .element3 {
   margin-top: 1.5rem;
 }
+
 section aside img {
   width: 150px;
   height: 150px;
@@ -56,20 +60,24 @@ section aside img {
   margin-right: 1.5rem;
   box-shadow: 1px 1px 8px black;
 }
+
 section aside h2 {
   font-size: 16px;
   opacity: 0.7;
   margin: 5px 0;
 }
+
 section aside .e-discription strong {
   color: #6f1e51;
   font-size: 1.2rem;
   font-weight: 900;
 }
+
 section aside .e-discription .line {
   text-decoration: line-through;
   font-size: 15px;
 }
+
 section aside .e-button {
   display: flex;
   position: absolute;
