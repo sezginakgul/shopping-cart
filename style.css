@@ -210,7 +210,7 @@ strong::before {
 @media screen and (max-width: 550px) {
   body {
     height: 100vh;
-    min-width: 350px;
+    min-width: 500px;
   }
 
   header {
