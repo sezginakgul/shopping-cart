@@ -206,3 +206,76 @@ strong::before {
   color: green;
   font-weight: 900;
 }
+
+@media screen and (max-width: 450px) {
+  body {
+    height: 100vh;
+    min-width: 350px;
+  }
+
+  header {
+    font-size: 1.1rem;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .element {
+    width: 300px;
+    margin-top: 0.3rem;
+  }
+
+  .element1,
+  .element2,
+  .element3 {
+    margin-top: 0.8rem;
+  }
+
+  section aside img {
+    width: 100px;
+    height: 100px;
+  }
+  .e-discription h2 {
+    font-size: 0.8rem;
+    margin-top: -0.19rem;
+  }
+  section aside .e-discription strong {
+    font-size: 0.9rem;
+  }
+
+  section aside .e-discription .line {
+    font-size: 0.7rem;
+  }
+  section aside .e-button {
+    position: absolute;
+    display: flex;
+    left: 7.8rem;
+    bottom: 2.5rem;
+    margin: 0;
+  }
+  section aside .e-button p {
+    margin: 0 0.3rem;
+  }
+
+  .fa-plus,
+  .fa-minus {
+    font-size: 1rem;
+  }
+
+  .remove {
+    font-size: 1rem;
+    position: absolute;
+    left: 7.8rem;
+    top: 4rem;
+  }
+
+  .p-total {
+    font-size: 0.8rem;
+    position: absolute;
+    left: 7.8rem;
+    bottom: 0;
+  }
+  .order {
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+  }
+}
