@@ -48,6 +48,14 @@ css-challenge (folder)
 - Live: [Live Website](https://sezginakgul.github.io/shopping-cart/)
 
 
+```css
+  @media screen and (max-width: 550px){
+  .....
+}
+
+```
+
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -63,10 +71,12 @@ css-challenge (folder)
 - CSS Overflow Property-The float Property-Opacity 
 - Transparency-Units in CSS
 - CSS Setting height and width-CSS Outline-CSS Combinators
+- CSS Media Queries
 - Javascript DOM
 - Javascript Events
 - Javascript Functions
 - Comments
+
 
 
 
