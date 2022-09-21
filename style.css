@@ -102,7 +102,7 @@ section aside .e-button p {
 .order .c-tax,
 .order .c-shipping,
 .order .c-totalize {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid brown;
   display: flex;
   justify-content: space-between;
 }
